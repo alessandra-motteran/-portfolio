@@ -1,0 +1,13 @@
+body { margin:0; background:#F7F4F2; -webkit-font-smoothing:antialiased; }
+a { color:#5C2A63; text-decoration:none; }
+a:hover { color:#1A1418; }
+
+@keyframes rise { from { opacity:0; transform:translateY(26px); } to { opacity:1; transform:none; } }
+[data-rise].pre { opacity:0; }
+[data-rise].in { animation: rise 0.9s cubic-bezier(.16,.84,.34,1) forwards; }
+
+/* hover states (kept as classes so defaults can stay as plain inline styles) */
+.row-link:hover { background:#F0E9EC !important; }
+.cta-invert:hover { background:#F7F4F2 !important; color:#1A1418 !important; }
+.btn-fill:hover { background:#1A1418 !important; }
+.btn-outline:hover { background:#1A1418 !important; color:#F7F4F2 !important; }

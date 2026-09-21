@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistema SCADA &amp; Panel Design — Case study</title>
+<meta name="description" content="Multinazionale enterprise del processing e packaging alimentare. Cinque anni di relazione, due filoni di prodotto, un metodo trasferito al team del cliente.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script src="./portfolio.js" defer></script>
+</head>
+<body>
+
+<div style="font-family:Inter,sans-serif;font-weight:300;color:#1A1418;background:#F7F4F2;overflow-x:hidden">
+
+  <nav style="position:sticky;top:0;z-index:20;display:flex;align-items:baseline;gap:26px;padding:20px 5vw;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;background:rgba(247,244,242,0.88);backdrop-filter:blur(10px)">
+    <a href="./index.html" style="margin-right:auto;color:#1A1418">Alessandra Motteran</a>
+    <a href="./case-study.html" style="color:#1A1418">Case study</a>
+    <a href="./contatti.html">Contatti</a>
+    <span data-lang-switch style="display:inline-flex;border:1px solid #C9BDC4;border-radius:999px;overflow:hidden">
+      <button type="button" data-lang="it" style="font:inherit;letter-spacing:0.14em;text-transform:uppercase;border:none;background:none;padding:7px 13px;cursor:pointer;color:#5C2A63">ITA</button>
+      <button type="button" data-lang="en" style="font:inherit;letter-spacing:0.14em;text-transform:uppercase;border:none;background:none;padding:7px 13px;cursor:pointer;color:#5C2A63">ENG</button>
+    </span>
+  </nav>
+
+  <div style="padding:14px 5vw 0">
+    <p style="margin:0;font-size:13px;line-height:1.65;letter-spacing:0.02em;color:#E4D9E0;background:#1A1418;border-left:4px solid #5C2A63;padding:20px 24px" data-nda>Tutti i progetti sono coperti da accordi di riservatezza. I clienti sono descritti per tipologia, settore e fascia di fatturato, senza nomi né dati identificativi, e per lo stesso motivo non sono incluse immagini di interfacce o materiali di progetto.</p>
+  </div>
+
+  <header style="padding: clamp(36px,6vw,80px) 5vw clamp(40px,5vw,72px); position: relative">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(32px,5vw,72px);align-items:end">
+      <div data-rise>
+        <p style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#6B5F68;margin:0 0 30px">Case study 01 — Food processing</p>
+        <h1 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(40px,6.4vw,92px);line-height:0.94;letter-spacing:-0.035em;margin:0">Sistema SCADA &amp; Panel Design</h1>
+        <p style="font-size:18px;line-height:1.6;color:#4A414A;margin:30px 0 0;max-width:42ch">Multinazionale enterprise del processing e packaging alimentare. Cinque anni di relazione, due filoni di prodotto, un metodo trasferito al team del cliente.</p>
+      </div>
+    </div>
+  </header>
+
+  <div style="padding:0 5vw">
+    <ol style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));border-top:1px solid #1A1418;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#6B5F68">
+      <li style="padding:14px 12px 16px 0">01 — Contesto</li>
+      <li style="padding:14px 12px 16px 0">02 — Sfida</li>
+      <li style="padding:14px 12px 16px 0">03 — Approccio</li>
+      <li style="padding:14px 12px 16px 0">04 — Ruolo</li>
+      <li style="padding:14px 12px 16px 0;color:#5C2A63">05 — Risultati</li>
+      <li style="padding:14px 0 16px 0">06 — Evoluzione</li>
+    </ol>
+  </div>
+
+  <article style="padding:clamp(48px,7vw,110px) 5vw 0;display:flex;flex-direction:column;gap:clamp(56px,7vw,110px)">
+
+    <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(24px,4vw,64px);align-items:start" data-rise>
+      <div style="margin:0 0 0">
+        <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(26px,3.2vw,40px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 14px">Contesto cliente</h2>
+        <p style="font-size:15px;line-height:1.6;color:#4A414A;margin:0;max-width:46ch">Impianti ad alta complessità tecnica e un team di sviluppo distribuito su più sedi europee.</p>
+      </div>
+      <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0;max-width:62ch;grid-column:span 2">Multinazionale enterprise nel settore del processing e packaging industriale per l'alimentare, fatturato annuo superiore ai €10 miliardi — impianti e macchinari di produzione ad alta complessità tecnica, team di sviluppo interno distribuito su più sedi europee.</p>
+    </section>
+
+    <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(24px,4vw,64px);align-items:start" data-rise>
+      <div style="margin:0 0 0">
+        <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(26px,3.2vw,40px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 14px">Sfida</h2>
+        <p style="font-size:15px;line-height:1.6;color:#4A414A;margin:0;max-width:46ch">Due filoni di prodotto paralleli da tenere insieme, senza un impianto di design né un framework condiviso con lo sviluppo.</p>
+      </div>
+      <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0;max-width:62ch;grid-column:span 2"><strong style="font-weight:500;color:#1A1418">Doppio filone di prodotto:</strong> redesign completo del sistema SCADA per il monitoraggio e controllo della produzione lato food processing, e design dei pannelli di controllo (HMI) calati sul singolo macchinario. Il progetto parte senza un impianto di design strutturato: componenti costruiti che generano inconsistenza visiva, debito tecnico e difficoltà di scalabilità tra i due filoni; l'assenza di un framework di tracciamento crea rischio di fraintendimenti tra design e sviluppo; la pianificazione dello sviluppo non è condivisa con il team design, con il rischio concreto di mancare le date di rilascio se emergono urgenze non pianificate.</p>
+    </section>
+
+    <section data-rise>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(24px,4vw,64px);align-items:start">
+        <div style="margin:0 0 0">
+        <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(26px,3.2vw,40px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 14px">Approccio &amp; metodo</h2>
+        <p style="font-size:15px;line-height:1.6;color:#4A414A;margin:0;max-width:46ch">Una risk map per livelli di fedeltà come standard di progetto, pianificazione trimestrale e user testing condotto in prima persona.</p>
+      </div>
+        <div style="grid-column:span 2;max-width:62ch;display:flex;flex-direction:column;gap:18px">
+          <p style="font-size: clamp(17px,1.6vw,20px); line-height: 1.72; margin: 0; font-weight: 300"><strong style="font-weight:500;color:#1A1418">Introduzione e proprietà della risk map basata sui livelli di fedeltà del design</strong>, adottata come standard per l'intero progetto.</p>
+          <p style="font-size: clamp(17px,1.6vw,20px); line-height: 1.72; margin: 0; font-weight: 300">Pianificazione trimestrale delle attività di design e sviluppo, con gestione del lavoro per sprint su Jira, stima a story point e revisione continua degli scostamenti tra stima e capacità reale del team.</p>
+          <p style="font-size: clamp(17px,1.6vw,20px); line-height: 1.72; margin: 0; font-weight: 300">Progettazione e conduzione diretta dello user testing con clienti reali, interni ed esterni: definizione di scenari e script, registrazione delle sessioni e mappatura dei click, sintesi degli insight e applicazione diretta al design.</p>
+          <p style="font-size: clamp(17px,1.6vw,20px); line-height: 1.72; margin: 0; font-weight: 300">Gestione diretta dell'allineamento tra la pianificazione di design e le deadline di release e sviluppo del cliente, in coordinamento costante con il project management interno.</p>
+          <p style="font-size: clamp(17px,1.6vw,20px); line-height: 1.72; margin: 0; font-weight: 300">Guida del confronto con gli stakeholder di progetto su Figma e Airtable per la raccolta strutturata di feedback e requisiti.</p>
+        </div>
+      </div>
+      <ul style="list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border-top:1px solid #1A1418">
+        <li style="padding:18px 16px 24px 0;border-right:1px solid #E0D2DA"><span style="font-family:Fraunces,serif;font-style:italic;font-size:14px;color:#5C2A63;display:block;margin-bottom:10px">i</span>Struttura e architettura</li>
+        <li style="padding:18px 16px 24px;border-right:1px solid #E0D2DA"><span style="font-family:Fraunces,serif;font-style:italic;font-size:14px;color:#5C2A63;display:block;margin-bottom:10px">ii</span>Validazione</li>
+        <li style="padding:18px 16px 24px;border-right:1px solid #E0D2DA"><span style="font-family:Fraunces,serif;font-style:italic;font-size:14px;color:#5C2A63;display:block;margin-bottom:10px">iii</span>Prototipo</li>
+        <li style="padding:18px 0 24px 16px"><span style="font-family:Fraunces,serif;font-style:italic;font-size:14px;color:#5C2A63;display:block;margin-bottom:10px">iv</span>Delivery</li>
+      </ul>
+      <p style="font-size:13px;color:#6B5F68;margin:14px 0 0">I quattro livelli di fedeltà su cui è costruita la risk map adottata dal progetto.</p>
+    </section>
+
+    <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(24px,4vw,64px);align-items:start" data-rise>
+      <div style="margin:0 0 0">
+        <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(26px,3.2vw,40px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 14px">Ruolo nel team</h2>
+        <p style="font-size:15px;line-height:1.6;color:#4A414A;margin:0;max-width:46ch">Ownership del processo di design e punto di riferimento unico del cliente, fino al passaggio di consegne del proprio ruolo.</p>
+      </div>
+      <div style="grid-column:span 2;max-width:62ch;display:flex;flex-direction:column;gap:18px">
+        <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0">Ownership del processo di design del progetto fin dall'inizio: definizione e introduzione della metodologia di risk map basata sui livelli di fedeltà, adottata come standard per l'intero progetto.</p>
+        <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0"><strong style="font-weight:500;color:#1A1418">Punto di riferimento unico per il cliente</strong> nel tenere insieme i due filoni paralleli e i relativi requisiti, con un ruolo di guida attiva del core team del cliente nelle fasi decisionali — non solo di supporto, ma di indirizzo sulle scelte da prendere.</p>
+        <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0">Responsabilità diretta sulla pianificazione delle attività di design in coordinamento con le deadline di sviluppo del cliente, e sulla gestione del team interno: due risorse allocate full time, estensione delle offerte negoziata e confermata più volte nell'arco dei cinque anni, gestione dell'uscita di una risorsa chiave con handoff strutturato per garantire continuità.</p>
+        <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0">Nel 2025, titolare del passaggio di consegne del proprio ruolo verso il team del cliente — <strong style="font-weight:500;color:#1A1418">un trasferimento di metodo, non solo di attività</strong>, reso possibile dalla profondità della conoscenza costruita nel tempo.</p>
+      </div>
+    </section>
+  </article>
+
+  <section style="margin-top:clamp(64px,8vw,120px);padding:clamp(48px,7vw,100px) 5vw;background:#F0E9EC" data-rise>
+    <div style="margin:0 0 clamp(32px,4vw,52px)">
+        <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(26px,3.2vw,40px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 14px">Risultati misurabili</h2>
+        <p style="font-size:15px;line-height:1.6;color:#4A414A;margin:0;max-width:46ch">Consegna on time con un terzo del budget annuale consumato, e un'offerta rinnovata per cinque anni consecutivi.</p>
+      </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));border-top:1px solid #1A1418;margin-bottom:44px">
+      <div style="padding:26px 24px 30px 0;border-right:1px solid #DCCBD4">
+        <span style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(40px,4.6vw,62px);line-height:0.9;display:block;font-variant-numeric:tabular-nums">30-35%</span>
+        <span style="font-size:13px;color:#6B5F68;display:block;margin-top:14px">Utilizzo del budget nei tempi stimati a inizio anno</span>
+        <div style="margin-top:22px;height:8px;border:1px solid #5C2A63;max-width:280px;position:relative"><div style="position:absolute;left:0;top:0;bottom:0;width:32.5%;background:#5C2A63"></div></div>
+      </div>
+      <div style="padding:26px 24px 30px;border-right:1px solid #DCCBD4">
+        <span style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(40px,4.6vw,62px);line-height:0.9;display:block;font-variant-numeric:tabular-nums"><span data-count="3">3</span>%</span>
+        <span style="font-size:13px;color:#6B5F68;display:block;margin-top:14px">Consumo medio mensile del budget</span>
+      </div>
+      <div style="padding:26px 0 30px 24px">
+        <span style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(40px,4.6vw,62px);line-height:0.9;display:block;font-variant-numeric:tabular-nums"><span data-count="5">5</span> anni</span>
+        <span style="font-size:13px;color:#6B5F68;display:block;margin-top:14px">Relazione continuativa, con estensioni dell'offerta confermate più volte</span>
+      </div>
+    </div>
+    <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.72;margin:0;max-width:62ch">Consegna on time e on target nell'anno di riferimento. Valore riconosciuto esplicitamente dal cliente nel mantenere un filo conduttore tra i diversi filoni di lavoro e nel guidare il team nelle fasi decisionali.</p>
+  </section>
+
+  <section style="padding:clamp(64px,8vw,120px) 5vw" data-rise>
+    <h2 style="font-family:Fraunces,serif;font-weight:300;font-size:clamp(30px,3.8vw,50px);letter-spacing:-0.025em;color:#5C2A63;margin:0 0 10px">Evoluzione nel tempo</h2>
+    <p style="font-size:15px;letter-spacing:0.06em;color:#6B5F68;margin:0 0 clamp(44px,5vw,72px)">2021 → 2025</p>
+
+    <div style="position:relative;margin-bottom:clamp(52px,6vw,88px)">
+      <div style="position:absolute;left:0;right:0;top:7px;height:1px;background:#5C2A63"></div>
+      <ol style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;position:relative">
+        <li style="display:flex;flex-direction:column;align-items:center;text-align:center">
+          <span style="width:15px;height:15px;border-radius:50%;background:#5C2A63;margin-bottom:26px"></span>
+          <span style="font-family:Fraunces,serif;font-size:clamp(22px,2.2vw,30px);color:#5C2A63;line-height:1;margin-bottom:14px">2021</span>
+          <span style="font-size:14px;line-height:1.5;color:#4A414A;max-width:22ch">Ricerca e raccolta requisiti</span>
+        </li>
+        <li style="display:flex;flex-direction:column;align-items:center;text-align:center">
+          <span style="width:15px;height:15px;border-radius:50%;background:#5C2A63;margin-bottom:26px"></span>
+          <span style="font-family:Fraunces,serif;font-size:clamp(22px,2.2vw,30px);color:#5C2A63;line-height:1;margin-bottom:14px">2022</span>
+          <span style="font-size:14px;line-height:1.5;color:#4A414A;max-width:22ch">Definizione processo e risk map</span>
+        </li>
+        <li style="display:flex;flex-direction:column;align-items:center;text-align:center">
+          <span style="width:15px;height:15px;border-radius:50%;background:#5C2A63;margin-bottom:26px"></span>
+          <span style="font-family:Fraunces,serif;font-size:clamp(22px,2.2vw,30px);color:#5C2A63;line-height:1;margin-bottom:14px">2023-2024</span>
+          <span style="font-size:14px;line-height:1.5;color:#4A414A;max-width:22ch">Doppio filone: SCADA e Panel Design</span>
+        </li>
+        <li style="display:flex;flex-direction:column;align-items:center;text-align:center">
+          <span style="width:15px;height:15px;border-radius:50%;background:#5C2A63;margin-bottom:26px"></span>
+          <span style="font-family:Fraunces,serif;font-size:clamp(22px,2.2vw,30px);color:#5C2A63;line-height:1;margin-bottom:14px">2025</span>
+          <span style="font-size:14px;line-height:1.5;color:#4A414A;max-width:22ch">Pianificazione continuativa e handoff</span>
+        </li>
+      </ol>
+    </div>
+
+    <dl style="margin:0;padding:0;max-width:74ch;display:flex;flex-direction:column;gap:clamp(26px,3vw,40px)">
+      <div style="display:grid;grid-template-columns:clamp(96px,11vw,150px) 1fr;gap:clamp(16px,2vw,32px);align-items:baseline">
+        <dt style="font-family:Fraunces,serif;font-size:clamp(20px,2vw,26px);color:#5C2A63;line-height:1">2021</dt>
+        <dd style="margin:0;font-size:clamp(17px,1.6vw,20px);line-height:1.72;color:#3A333C">La relazione parte con la fase di ricerca e raccolta dei requisiti sui due filoni di prodotto.</dd>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(96px,11vw,150px) 1fr;gap:clamp(16px,2vw,32px);align-items:baseline">
+        <dt style="font-family:Fraunces,serif;font-size:clamp(20px,2vw,26px);color:#5C2A63;line-height:1">2022</dt>
+        <dd style="margin:0;font-size:clamp(17px,1.6vw,20px);line-height:1.72;color:#3A333C">La progettazione entra nel vivo con la definizione del processo di design e della prima risk map.</dd>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(96px,11vw,150px) 1fr;gap:clamp(16px,2vw,32px);align-items:baseline">
+        <dt style="font-family:Fraunces,serif;font-size:clamp(20px,2vw,26px);color:#5C2A63;line-height:1">2023-24</dt>
+        <dd style="margin:0;font-size:clamp(17px,1.6vw,20px);line-height:1.72;color:#3A333C">Cresce nei due filoni paralleli — redesign SCADA e Panel Design — con ampliamento del team dedicato e introduzione di un design system a supporto della scalabilità.</dd>
+      </div>
+      <div style="display:grid;grid-template-columns:clamp(96px,11vw,150px) 1fr;gap:clamp(16px,2vw,32px);align-items:baseline">
+        <dt style="font-family:Fraunces,serif;font-size:clamp(20px,2vw,26px);color:#5C2A63;line-height:1">2025</dt>
+        <dd style="margin:0;font-size:clamp(17px,1.6vw,20px);line-height:1.72;color:#3A333C">Il progetto entra in una fase di pianificazione continuativa per trimestre, con un passaggio di consegne strutturato verso il team del cliente — una relazione che dal 2021 matura da esecuzione a trasferimento di metodo.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <nav style="background:#1A1418;color:#F7F4F2;padding:clamp(40px,5vw,72px) 5vw;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:baseline">
+    <a href="./case-study.html" style="color:#C0B5BC;font-size:12px;letter-spacing:0.14em;text-transform:uppercase">Tutti i case study</a>
+    <a href="./progetto-02.html" style="color:#F7F4F2;font-family:Fraunces,serif;font-size:clamp(20px,2.6vw,34px);font-weight:300;letter-spacing:-0.02em">HMI di gruppo &amp; Design System →</a>
+  </nav>
+</div>
+
+</body>
+</html>
